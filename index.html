@@ -43,10 +43,11 @@
 <body onload="checkCookie()">
     <h1>Welcome to my javascript test</h1>
     <h2>
+
         <script>
             if (getCookie("username") != "") {
-                document.write("Hello " + getCookie("username"))
-            }
+                document.write("Hello " + getCookie("username")+"I hope you liked my test page!")
+            }else{document.write("Refresh for a personalized message")}
         </script>
 
 
